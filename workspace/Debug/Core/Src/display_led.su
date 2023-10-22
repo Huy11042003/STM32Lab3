@@ -1,0 +1,11 @@
+../Core/Src/display_led.c:10:6:displayFirstLedCouple	16	static
+../Core/Src/display_led.c:39:6:displaySecondLedCouple	16	static
+../Core/Src/display_led.c:66:6:toggleLeds	16	static
+../Core/Src/display_led.c:86:6:displaySEG7_1	16	static
+../Core/Src/display_led.c:189:6:displaySEG7_2	16	static
+../Core/Src/display_led.c:291:6:enable0	8	static
+../Core/Src/display_led.c:296:6:enable1	8	static
+../Core/Src/display_led.c:301:6:enable2	8	static
+../Core/Src/display_led.c:306:6:enable3	8	static
+../Core/Src/display_led.c:311:6:showTimeDelay_First	16	static
+../Core/Src/display_led.c:318:6:showTimeDelay_Second	16	static
