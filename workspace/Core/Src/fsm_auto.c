@@ -8,6 +8,9 @@
 
 
 void auto_run(){
+	if (isButtonPressed(0) == 1 ){
+		MODE = MODE2;
+	}
 	if(MODE == MODE1){
 		switch(firstCoupleLedAutoState){
 			case LED_INIT:
@@ -114,9 +117,5 @@ void auto_run(){
 			default:
 				break;
 		}
-
-			if (isButtonPressed(0) == 1 ){
-					MODE = MODE2;
-				}
 	}
 }

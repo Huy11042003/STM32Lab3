@@ -267,6 +267,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	timerRun(6);
 	timerRun(7);
 	timerRun(8);
+	getKeyInput();
 }
 /* USER CODE END 4 */
 
