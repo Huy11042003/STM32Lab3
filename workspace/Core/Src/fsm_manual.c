@@ -42,6 +42,8 @@ void mode2_run(){
 					if(redDelay >= 99) redDelay = 1;
 				}
 				if (isButtonPressed(2)==1){
+					HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN2_Pin|EN3_Pin
+							                          |EN4_Pin|EN5_Pin, GPIO_PIN_SET);
 					MODE = MODE1;
 					setValues();
 				}
@@ -109,6 +111,8 @@ void mode3_run(){
 					if(yellowDelay >= 99) yellowDelay = 1;
 				}
 				if (isButtonPressed(2)==1){
+					HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN2_Pin|EN3_Pin
+							                          |EN4_Pin|EN5_Pin, GPIO_PIN_SET);
 					MODE = MODE1;
 					setValues();
 				}
@@ -176,6 +180,8 @@ void mode4_run(){
 					if(greenDelay >= 99) greenDelay = 1;
 				}
 				if (isButtonPressed(2)==1){
+					HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN2_Pin|EN3_Pin
+							                          |EN4_Pin|EN5_Pin, GPIO_PIN_SET);
 					MODE = MODE1;
 					setValues();
 				}
@@ -226,6 +232,8 @@ void manual_run(){
 		case MODE4:
 			mode4_run();
 			if (isButtonPressed(0) == 1){
+				HAL_GPIO_WritePin(GPIOA, EN0_Pin|EN1_Pin|EN2_Pin|EN3_Pin
+						                          |EN4_Pin|EN5_Pin, GPIO_PIN_SET);
 				MODE = MODE1;
 				setValues();
 			}
