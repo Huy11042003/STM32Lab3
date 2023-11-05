@@ -24,9 +24,9 @@ enum LedState firstCoupleLedAutoState;
 enum LedState secondCoupleLedAutoState;
 enum SegState seg7AutoState;
 
-int redDelay = 5;
-int greenDelay = 3;
-int yellowDelay = 2;
+int redDelay = 10;
+int greenDelay = 6;
+int yellowDelay = 4;
 
 
 int countdownFirstCoupleLed;
